@@ -1,0 +1,35 @@
+$BG: #1e2b38;
+@font-face {
+    font-family: "Proxima Nova Soft";
+    src: url('../FONTS/FontsFree-Net-Proxima-Nova-Soft-W03-Regular.ttf');
+}
+footer {
+    background: $BG;
+    padding: 10px 0;
+    div {
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        text-align: center;
+        h2 {
+            font-family: 'Proxima Nova Soft';
+            color: rgba(#fff, 0.3);
+            font-size: 16px;
+            margin: 0;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+        p {
+            font-family: 'Proxima Nova Soft';
+            color: rgba(#fff, 0.3);
+            font-size: 16px;
+            margin: 0;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .year {
+            font-size: 14px;
+        }
+    }
+}

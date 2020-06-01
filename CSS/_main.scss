@@ -1,0 +1,239 @@
+$FB: #3b5998;
+$TW: #1da1f2;
+$WHAT: #25d366;
+
+// ---- MAIN 
+.main {
+    article {
+        text-align: center;
+        .text {
+            color: #5a5a5a;
+            font-weight: 600;
+            font-size: 1em;
+            line-height: 30px;
+            width: 80%;
+            margin: 40px auto 60px auto;
+            .dack_ {
+                color: rgba(#5a5a5a, 0.3);
+            }
+            .title {
+                font-size: 30px;
+                margin-bottom: 40px;
+                font-weight: 300;
+                color: #dd820d;
+                text-align: center;
+            }
+            .bold {
+                color: #606060;
+                text-decoration: underline;
+            }
+            .redes {
+                a {
+                    font-size: 45px;
+                    margin: 0 30px;
+                }
+                .fb {
+                    color: $FB;
+                    &:hover {
+                        color: rgba($FB, 0.5);
+                    }
+                }
+                .tw {
+                    color: $TW;
+                    &:hover {
+                        color: rgba($TW, 0.5);
+                    }
+                }
+                .what {
+                    color: $WHAT;
+                    &:hover {
+                        color: rgba($WHAT, 0.5);
+                    }
+                }
+            }
+        }
+    }
+    .projects {
+        background: #f2f2f2;
+        padding: 10px 0 60px 0;
+        .container {
+            overflow: hidden;
+        }
+        .title {
+            font-size: 34px;
+            margin-bottom: 40px;
+            font-weight: 300;
+            color: #323068;
+            text-align: center;
+        }
+        .projects-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .project {
+                width: 32%;
+                margin-bottom: 40px;
+                .demo {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    img {
+                        width: 100%;
+                        vertical-align: top;
+                        border-radius: 3px;
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+                }
+                .description {
+                    text-align: center;
+                    .name {
+                        font-weight: 700;
+                        color: #3895ea;
+                        text-decoration: none;
+                        &:hover {
+                            color: rgba(#3895ea, 0.5);
+                        }
+                    }
+                    .category {
+                        font-size: 14px;
+                        color: #636363;
+                    }
+                }
+            }
+        }
+    }
+    .galery {
+        background: #f2f2f2;
+        padding: 10px 0 60px 0;
+        .container {
+            overflow: hidden;
+        }
+        .title {
+            font-size: 34px;
+            margin-bottom: 40px;
+            font-weight: 300;
+            color: #323068;
+            text-align: center;
+        }
+        .img-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .uno {
+                order: 2;
+            }
+            .dos {
+                order: 1;
+            }
+            .tres {
+                order: 3;
+            }
+            .cuatro {
+                order: 4;
+            }
+            .cinco {
+                order: 5;
+            }
+            .img {
+                width: 30%;
+                margin-bottom: 40px;
+                .demo {
+                    width: 100%;
+                    margin-bottom: 10px;
+                    img {
+                        width: 100%;
+                        vertical-align: top;
+                        border-radius: 3px;
+                        &:hover {
+                            color: #000;
+                        }
+                    }
+                }
+                .description {
+                    text-align: center;
+                    .name {
+                        font-weight: 700;
+                        color: #3895ea;
+                        text-decoration: none;
+                        &:hover {
+                            color: rgba(#3895ea, 0.5);
+                        }
+                    }
+                    .category {
+                        font-size: 14px;
+                        color: #636363;
+                    }
+                }
+            }
+        }
+    }
+    .links {
+        background: #fff;
+        padding: auto;
+        .container {
+            text-align: center;
+            height: 300px;
+            .title {
+                font-size: 34px;
+                margin-bottom: 40px;
+                font-weight: 300;
+                color: #323068;
+                text-align: center;
+            }
+            .links-container {
+                margin: auto;
+                width: 90%;
+                max-width: 700px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                height: 100%;
+                .link {
+                    margin: 100px 40px ;
+                    
+                    a {
+                        background: #fff;
+                        color: #000;
+                        padding: 15px 50px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        border: 1.5px solid #000;
+                        &:hover {
+                            background: #000;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .emails {
+        background: #f2f2f2;
+        padding: 20px 0;
+        .title {
+            margin: 0;
+            font-size: 34px;
+            margin-bottom: 40px;
+            font-weight: 300;
+            color: #323068;
+            text-align: center;
+        }
+        .mails {
+            text-align: center;
+            .mail {
+                margin: auto;
+                font-weight: 400;
+                font-size: 22px;
+                margin-bottom: 25px;
+                border-bottom: 1px solid #000;
+                width: 30%;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}
