@@ -466,6 +466,25 @@ footer div .year {
   .main .galery .img-container .img {
     width: 49%;
   }
+  .main .links .container {
+    height: 300px;
+  }
+  .main .links .container .title {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .main .links .container .links-container {
+    padding: 0;
+    display: inline-block;
+  }
+  .main .links .container .links-container .link {
+    margin: 0;
+    margin: 40px 40px 20px 40px;
+    display: inline-block;
+  }
+  .main .links .container .links-container .link a {
+    margin: 0 10px;
+  }
 }
 
 @media screen and (max-width: 400px) {
